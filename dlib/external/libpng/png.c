@@ -10,7 +10,7 @@
  * For conditions of distribution and use, see the disclaimer
  * and license in png.h
  */
-
+#include <math.h>
 #include "pngpriv.h"
 
 /* Generate a compiler error if there is an old png.h in the search path. */

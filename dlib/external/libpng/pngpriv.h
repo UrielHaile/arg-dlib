@@ -524,7 +524,9 @@
     * <fp.h> if possible.
     */
 #    if !defined(__MATH_H__) && !defined(__MATH_H) && !defined(__cmath__)
-#      include <fp.h>
+#      if defined(__i386__) || defined(__x86_64__)
+#           include <fp.h>
+#      endif    
 #    endif
 #  else
 #    include <math.h>

@@ -15,7 +15,7 @@
  * Transformations that are used in both reading and writing are
  * in pngtrans.c.
  */
-
+#include <math.h>
 #include "pngpriv.h"
 
 #ifdef PNG_ARM_NEON_IMPLEMENTATION
